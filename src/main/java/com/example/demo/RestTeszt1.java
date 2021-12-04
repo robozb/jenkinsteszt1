@@ -18,6 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestTeszt1 {
     @GetMapping
     public String get() {
-        return "ok-hello2";
+        return "ok-hello3";
     }
 }
