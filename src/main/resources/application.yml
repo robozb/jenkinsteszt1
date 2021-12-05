@@ -1,7 +1,14 @@
 spring:
+    profiles: 
+        active: server     
     devtools:
         restart:
-            pollInterval: 5s        
+            pollInterval: 5s   
+            
+server:
+    port: 80
+    servlet:
+        context-path: /vezerles             
     
     
         
